@@ -1,0 +1,25 @@
+package Statements;
+
+public class TernaryOperator{
+    public static void main(String[] args) {
+        int number = 4 ;
+
+    //ternary operator
+    string type = ((number%2) == 0) ? "even":"odd ";
+    System.out.println(type);
+    }
+}
+
+
+// check if a student pass or fail
+package Statements;
+
+public class TernaryOperator{
+    public static void main(String[] args) {
+        int marks = 67 ;
+
+    //ternary operator
+    string reportcard = marks >=33 ? "pass":"fail";
+    System.out.println(reportcard);
+    }
+}
