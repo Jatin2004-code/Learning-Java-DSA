@@ -1,0 +1,18 @@
+// Source code is decompiled from a .class file using FernFlower decompiler.
+package Revision;
+
+public class RectangleCalculator {
+   public RectangleCalculator() {
+   }
+
+   public static void main(String[] var0) {
+      double var1 = 12.7;
+      double var3 = 6.89;
+      double var5 = var1 * var3;
+      double var7 = 2.0 * (var1 + var3);
+      System.out.println("length of rectnagle:" + var1 + "cm");
+      System.out.println("width of rectnagle:" + var3 + "cm");
+      System.out.println("area of rectnagle:" + var5 + "sqcm");
+      System.out.println("parimeter of rectnagle:" + var7 + "cm");
+   }
+}
