@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 public class SelectionSortAlgo {
     public static void selectionsort(int arr[]) {
