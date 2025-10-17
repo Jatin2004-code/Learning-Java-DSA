@@ -13,6 +13,8 @@ public class product{
         System.out.println(" product = " + product);
         
         
+
+
         
     }
     public static void main(String[] args){
