@@ -6,6 +6,8 @@ public class RectangleCalculator {
    public RectangleCalculator() {
    }
 
+
+
    public static void main(String[] var0) {
       double var1 = 12.7;
       double var3 = 6.89;
