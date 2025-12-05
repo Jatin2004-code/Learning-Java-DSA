@@ -13,5 +13,6 @@ class Car {
 public class constructorchaining {
    public static void main(String[] args) {
         Car c = new Car();
+        System.out.println("Car object created: " + c);
     }
 }

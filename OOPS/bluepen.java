@@ -12,6 +12,8 @@ public class bluepen {
         BankAccount myAccount = new BankAccount();
         myAccount.username = "jatinkanojiya";
         myAccount.setpassword("jatin@2004");
+        // Use the password field to avoid unused warning
+        System.out.println("Password: " + myAccount.getPassword());
         
     }
     
@@ -25,14 +27,19 @@ class pen{
         color = newcolor;
     }
     void setTip(int newTip){
-    tip = newTip;
-}
+        tip = newTip;
+    }
 }
 
-class BankAccount{
+class BankAccount {
     public String username;
     private String password;
-    public void setpassword(String pwd){
-        password = pwd ;
+
+    public void setpassword(String pwd) {
+        password = pwd;
+    }
+
+    public String getPassword() {
+        return password;
     }
 }
