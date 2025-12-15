@@ -4,7 +4,7 @@ import java.util.*;
 // Calculates the sum of two numbers provided by the user using a function.
 public class Sum1{
     public static int add(int a, int b) {
-        int sum = a + b;
+        int sum = a * b;
         return sum;
     }
 
